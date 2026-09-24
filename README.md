@@ -1,4 +1,17 @@
-# LabBridge — Rust ⇄ Ruby bridge
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/Hartwell-Labs/.github/main/profile/assets/hartwell-logo.svg" width="72" alt="Hartwell Labs" />
+
+## LabBridge
+
+Rust ⇄ Ruby bridge — write plugins in Ruby, load them back into Rust via the LabPlugin trait.
+
+[![Ruby](https://img.shields.io/badge/Ruby%20·%20Rust-bridge-F15A24?style=flat-square&logo=ruby)](.) [![CI](https://img.shields.io/github/actions/workflow/status/Hartwell-Labs/labbridge/ci.yml?branch=main&style=flat-square&label=CI)](.)
+[![License](https://img.shields.io/badge/license-MIT-F15A24?style=flat-square)](LICENSE) [![Website](https://img.shields.io/badge/site-hartwell--labs.github.io-4f46e5?style=flat-square)](https://hartwell-labs.github.io)
+
+[Website](https://hartwell-labs.github.io) · [All products](https://hartwell-labs.github.io/products/) · [Security](https://hartwell-labs.github.io/security/) · [Hack the Lab](https://github.com/Hartwell-Labs/hack-the-lab)
+
+</div>
 
 > **"Can I write my talus plugin in Ruby?"** — yes. LabBridge translates a
 > defined subset of Hartwell Labs Rust into clean, runnable Ruby — and Ruby
@@ -90,3 +103,14 @@ ruby -Ilib test/labbridge_test.rb   # 10 runs, 0 failures
 
 MIT — part of the Hartwell Labs toolset. Security reports: see
 [hack-the-lab](https://github.com/Hartwell-Labs/hack-the-lab) (safe harbor).
+---
+
+<div align="center">
+
+**[Hartwell Labs](https://github.com/Hartwell-Labs)** — security systems, languages and tools, built in the open.
+
+[Website](https://hartwell-labs.github.io) · [All products](https://hartwell-labs.github.io/products/) · [Security policy](https://hartwell-labs.github.io/security/) · [Report a vulnerability](https://hartwell-labs.github.io/security/)
+
+<sub>MIT License · © 2026 Hartwell Labs</sub>
+
+</div>
