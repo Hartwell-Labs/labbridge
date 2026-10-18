@@ -1,0 +1,12 @@
+# Who has to look at a change before it lands.
+#
+# There is one maintainer, so this file looks redundant. It is here so the
+# request survives the lab growing: a security-sensitive path in a repository
+# with no owner is a path nobody reads, and the default answer should be a
+# person rather than whoever happened to open the pull request.
+#
+# The paths are chosen so that the things which can end a process, sign a
+# release, handle a key or make a network call cannot be changed by anyone who
+# has not been through this repository before.
+
+* @BartoszOsiej
